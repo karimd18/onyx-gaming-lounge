@@ -134,6 +134,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 Deploy seamlessly to Vercel
 
----
-
-👉 Do you want me to also make a **shorter, client-facing README** (marketing-style, less technical) alongside this dev-focused one, or ju
