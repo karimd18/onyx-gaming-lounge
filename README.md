@@ -65,45 +65,50 @@ It combines a neon cyberpunk-inspired design with powerful booking, membership, 
 ```bash
 # 1. Clone repo
 git clone https://github.com/yourusername/onyx-gaming-lounge.git
-cd onyx-gaming-lounge```
+cd onyx-gaming-lounge
+```
 
 # 2. Install dependencies
-npm install
+`npm install`
 
 # 3. Setup environment variables
-cp .env.example .env.local
+
+`cp .env.example .env.local`
 # Fill in Stripe, NextAuth, Sanity, Resend, DB, etc.
 
 # 4. Run database migrations
-npx prisma migrate dev --name init
+`npx prisma migrate dev --name init`
 
 # 5. Seed initial data
-npm run seed
+`npm run seed`
 
 # 6. Start dev server
-npm run dev
+`npm run dev`
 
 ---
 
 ⚙️ Environment Variables
 
 Create a .env.local file with:
-
+```
 DATABASE_URL="postgresql://..."
 NEXTAUTH_SECRET="..."
 STRIPE_SECRET_KEY="..."
 STRIPE_WEBHOOK_SECRET="..."
 SANITY_PROJECT_ID="..."
 RESEND_API_KEY="..."
+```
+
+---
 
 🧪 Testing
 # Run unit tests
-npm run test
+`npm run test`
 
 ---
 
 # Run end-to-end tests
-npm run test:e2e
+`npm run test:e2e`
 
 ---
 
